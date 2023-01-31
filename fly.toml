@@ -1,17 +1,17 @@
 # fly.toml file generated for da-course on 2022-11-18T12:14:21+07:00
 
-app = "da-course"
+app = "datingapp4learn"
 kill_signal = "SIGINT"
 kill_timeout = 5
 processes = []
 
 [build]
-  image = "trycatchlearn/datingapp:latest"
+  image = "singotia/datingapp:latest"
 
 [env]
   ASPNETCORE_URLS="http://+:8080"
-  CloudinarySettings__CloudName="dj3wmuy3l"
-  CloudinarySettings__ApiKey="895484589483755"
+  CloudinarySettings__CloudName="duzanzssz"
+  CloudinarySettings__ApiKey="595427491169312"
 
 [experimental]
   allowed_public_ports = []
